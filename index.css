@@ -1,0 +1,96 @@
+body
+{
+  margin: 0;
+  font-family: 'Roboto', serif;
+}
+
+#header
+{
+  background: #EEEEEE;
+  border-bottom: 1px solid #AAAAAA;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+
+#logo
+{
+  width: 128px;
+}
+
+#header-label
+{
+  font-size: 22px;
+  padding: 0 32px;
+}
+
+.info-box
+{
+  margin: 16px 32px;
+  border-radius: 16px;
+  padding: 16px 32px;
+  background: #A7DAE2;
+}
+
+#demo-tasks
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.demo-task
+{
+  width: calc(32% - 64px);
+  min-width: 256px;
+  max-width: 512px;
+  margin: 16px 32px;
+}
+
+.demo-task-button
+{
+  border: 3px solid #3384AC;
+  border-radius: 32px;
+  text-align: center;
+  padding: 8px;
+}
+
+.demo-task-image
+{
+  margin: 16px;
+  max-height: 128px;
+}
+
+
+.demo-task p
+{
+  padding: 0 32px;
+}
+
+.demo-task-button h5,
+.demo-task-button h3
+{
+  margin: 8px;
+}
+
+#demo-tools
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.demo-tool
+{
+  width: calc(32% - 64px);
+  min-width: 256px;
+  max-width: 512px;
+  height: 128px;
+  margin: 16px 32px;
+  border: 3px solid #FCC543;
+  border-radius: 32px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
