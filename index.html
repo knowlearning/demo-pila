@@ -3,6 +3,17 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Roboto">
+    <script>
+      function launchKarel() {
+        window.open('https://the-karel-project.netlify.app/karel-player', '_blank')
+      }
+      function launchBetty() {
+        window.open('https://bettysbrain.pages.dev/practice/causal-map', '_blank')
+      }
+      function launchCandli() {
+        window.open('https://cand.li/dev/oecd-pila/pila.html?tutorial&storage=https://cand.li/dev/oecd-pilagiven', '_blank')
+      }
+    </script>
   </head>
   <body>
     <div id="header">
@@ -14,7 +25,7 @@
       Here are a few sample tasks to get an idea of what is inside our learning and assessment applications!
     </div>
     <div id="demo-tasks">
-      <div class="demo-task">
+      <div class="demo-task" onclick="launchKarel()">
         <div class="demo-task-button">
           <img class="demo-task-image" src="karel.png" />
           <h3>Karel the Turtle on PILA</h3>
@@ -27,7 +38,7 @@
           Karel tasks target computational problem solving and self-regulated learning.
         </p>
       </div>
-      <div class="demo-task">
+      <div class="demo-task" onclick="launchBetty()">
         <div class="demo-task-button">
           <img class="demo-task-image" src="betty.png" />
           <h3>Betty's Brain on PILA</h3>
@@ -40,7 +51,7 @@
           Betty units target causal reasoning, systems thinking, and self-regulated learning.
         </p>
       </div>
-      <div class="demo-task">
+      <div class="demo-task" onclick="launchCandli()">
         <div class="demo-task-button">
           <img class="demo-task-image" src="candli.svg" />
           <h3>PILA Game Creator</h3>
