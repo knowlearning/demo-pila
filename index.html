@@ -13,6 +13,12 @@
       function launchCandli() {
         window.open('https://cand.li/dev/oecd-pila/pila.html?tutorial&storage=https://cand.li/dev/oecd-pilagiven', '_blank')
       }
+      function launchKarelTaskEditor() {
+        window.open('https://the-karel-project.netlify.app/karel-builder?mode=tasks', '_blank')
+      }
+      function launchMapEditor() {
+        window.open('https://the-karel-project.netlify.app/karel-builder?mode=maps', '_blank')
+      }
     </script>
   </head>
   <body>
@@ -71,13 +77,15 @@
       Try out some of these tools by using the buttons below.
     </div>
     <div id="demo-tools">
-      <div class="demo-tool">
+      <!--
+      <div class="demo-tool" >
         <h3>Betty's Brain Teacher Dashboard</h3>
       </div>
-      <div class="demo-tool">
+      -->
+      <div class="demo-tool" onclick="launchKarelTaskEditor()">
         <h3>Karel Task Customizer</h3>
       </div>
-      <div class="demo-tool">
+      <div class="demo-tool" onclick="launchMapEditor()">
         <h3>PILA Map Customizer</h3>
       </div>
     </div>
