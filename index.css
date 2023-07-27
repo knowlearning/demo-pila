@@ -45,6 +45,12 @@ body
   min-width: 256px;
   max-width: 512px;
   margin: 16px 32px;
+  cursor: pointer;
+}
+
+.demo-task-button:hover
+{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .demo-task-button
