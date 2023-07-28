@@ -4,11 +4,15 @@
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Roboto">
     <script>
+      const bettyScope = crypto.randomUUID()
+
+      const bettyDashboardURL = `https://DOMAIN/practice/OverviewView?keys=${bettyScope}`
+
       function launchKarel() {
         window.open('https://the-karel-project.netlify.app/karel-player', '_blank')
       }
       function launchBetty() {
-        window.open('https://bettysbrain.pages.dev/practice/causal-map', '_blank')
+        window.open(`https://f4dae3d8.bettysbrain.pages.dev/practice/causal-map?persistence=${bettyScope}&name=anonymous&id=anon`, '_blank')
       }
       function launchCandli() {
         window.open('https://cand.li/dev/oecd-pila/pila.html?tutorial&storage=https://cand.li/dev/oecd-pila', '_blank')
