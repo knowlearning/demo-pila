@@ -6,8 +6,6 @@
     <script>
       const bettyScope = crypto.randomUUID()
 
-      const bettyDashboardURL = `https://DOMAIN/practice/OverviewView?keys=${bettyScope}`
-
       function launchKarel() {
         window.open('https://the-karel-project.netlify.app/karel-player', '_blank')
       }
@@ -16,6 +14,9 @@
       }
       function launchCandli() {
         window.open('https://cand.li/dev/oecd-pila/pila.html?tutorial&storage=https://cand.li/dev/oecd-pila', '_blank')
+      }
+      function launchBettyDashboard() {
+        window.open(`https://update-kl-package.bettysbrain-teacherdashboard.pages.dev/practice/OverviewView?keys=${bettyScope}`, '_blank')
       }
       function launchKarelTaskEditor() {
         window.open('https://the-karel-project.netlify.app/karel-builder?mode=tasks', '_blank')
@@ -86,6 +87,9 @@
         <h3>Betty's Brain Teacher Dashboard</h3>
       </div>
       -->
+      <div class="demo-tool" onclick="launchBettyDashboard()">
+        <h3>Betty's Brain Dashboard</h3>
+      </div>
       <div class="demo-tool" onclick="launchKarelTaskEditor()">
         <h3>Karel Task Customiser</h3>
       </div>
