@@ -24,6 +24,9 @@
       function launchMapEditor() {
         window.open('https://demo-gallery-karel.netlify.app/karel-builder?mode=maps', '_blank')
       }
+      function launchBettyCustomizer() {
+        window.open('https://bettysbrain.knowlearning.systems/bb/custom/causal-map?auth=true&oecd=true&custom=true', '_blank')
+      }
     </script>
   </head>
   <body>
@@ -36,7 +39,7 @@
       </p>
       <div id="hero-cards">
         <div class="card">
-          <img class="demo-task-image" src="karel.png" />
+          <img class="demo-task-image" src="karel.jpeg" />
           <h2>Karel the Turtle</h2>
           <p>
             Use block-based coding to guide a robotic turtle through
@@ -68,7 +71,7 @@
           <h2>PILA Game Creator</h2>
           <p>
             Program and design your own digital game, then check for
-            and correct errors in the games program or interface.
+            and correct errors in the game's program or interface.
           </p>
           <button
             class="preview-button"
@@ -105,20 +108,52 @@
         </div>
       </div>
     </div>
-    <div id="demo-tools">
-      <!--
-      <div class="demo-tool" >
-        <h3>Betty's Brain Teacher Dashboard</h3>
+    <div id="customizer-tools">
+      <h1>Customiser Tools</h1>
+
+      <p>
+        Design your own activities using the library of simple and
+        intuitive PILA customiser tools. Try a few out now.
+      </p>
+      
+      <div class="big-card">
+        <div>
+          <h2>Betty's Brain Customiser</h2>
+          <p>
+            Design your own unit by creating an "expert" causal map
+            of a phenomenon and the corresponding resource book with
+            text, images, and videos!
+          </p>
+        </div>
+        <div style="display: flex; align-items: center;">
+          <img class="demo-task-image" src="betty-customizer.png" />
+          <button
+            class="preview-button"
+            onclick="launchBettyCustomizer()"
+          >
+            Preview
+          </button>
+        </div>
       </div>
-      -->
-      <div class="demo-tool" onclick="launchBettyDashboard()">
-        <h3>Betty's Brain Dashboard</h3>
-      </div>
-      <div class="demo-tool" onclick="launchKarelTaskEditor()">
-        <h3>Karel Task Customiser</h3>
-      </div>
-      <div class="demo-tool" onclick="launchMapEditor()">
-        <h3>PILA Map Customiser</h3>
+      
+      <div class="big-card">
+        <div>
+          <h2>Karel Customiser</h2>
+          <p>
+            Create your own computational thinking challenges by
+            adjusting the grid-like world, available blocks to
+            instruct the robotic turtle, and add instructions/hints.
+          </p>
+        </div>
+        <div style="display: flex; align-items: center;">
+          <img class="demo-task-image" src="karel-customizer.png" />
+          <button
+            class="preview-button"
+            onclick="launchKarelTaskEditor()"
+          >
+            Preview
+          </button>
+        </div>
       </div>
     </div>
   </body>

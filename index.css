@@ -19,6 +19,13 @@ body
   padding: 16px;
 }
 
+#customizer-tools
+{
+  background: #dbf5ee;
+  text-align: center;
+  padding: 16px;
+}
+
 .preview-button
 {
   background: #56b3ae;
@@ -47,6 +54,10 @@ h1
 {
   max-width: 920px;
   margin: 1em auto;
+}
+
+p
+{
   font-size: 1.25em;
 }
 
